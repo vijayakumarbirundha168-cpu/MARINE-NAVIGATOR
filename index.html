@@ -145,7 +145,7 @@ let data=null,watchId=null,gpsLive=false,lastGps=null;
 // GitHub Pages can only host static files, so the Python API runs on Render.
 // When opened locally through app.py, the API stays same-origin.
 const API_BASE = location.hostname.endsWith("github.io")
-  ? "https://phantom-strikers-antarctic-navigation.onrender.com"
+  ? "https://marine-navigator.onrender.com"
   : "";
 
 const fmt=(v,u="",d=1)=>typeof v==="number"&&isFinite(v)?v.toFixed(d)+u:"N/A";
@@ -252,3 +252,4 @@ $("refresh").onclick=load;
 load();setInterval(load,5*60*1000);
 </script>
 </body></html>
+
