@@ -1,6 +1,0 @@
-services:
-  - type: web
-    name: phantom-strikers-antarctic-navigation
-    env: python
-    buildCommand: echo "No dependencies"
-    startCommand: python app.py
